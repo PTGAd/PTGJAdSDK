@@ -39,7 +39,6 @@ Pod::Spec.new do |spec|
   spec.libraries = 'c++', 'resolv', 'z', 'sqlite3'
   spec.vendored_frameworks =  'Frameworks/JADYun.framework'
     
-https://help-sdk-doc.jd.com/ansdkDoc/access_docs/iOS/%E5%B9%BF%E5%91%8A%E6%8E%A5%E5%85%A5/%E4%BF%A1%E6%81%AF%E6%B5%81%E5%B9%BF%E5%91%8A.html
   valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
   spec.xcconfig = {
     'VALID_ARCHS' =>  valid_archs.join(' '),
